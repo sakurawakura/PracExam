@@ -1,4 +1,4 @@
-// Interactable.hpp
+
 #ifndef INTERACTABLE_HPP
 #define INTERACTABLE_HPP
 

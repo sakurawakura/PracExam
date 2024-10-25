@@ -1,4 +1,4 @@
-// Explorer.cpp
+
 #include "Explorer.hpp"
 
 Explorer::Explorer(int gridWidth, int gridHeight) : GridItem(0, 0, gridWidth, gridHeight), stamina(2) {}

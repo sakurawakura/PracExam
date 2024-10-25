@@ -1,5 +1,4 @@
 
-// main-3.cpp
 #include <iostream>
 #include "Game.hpp"
 

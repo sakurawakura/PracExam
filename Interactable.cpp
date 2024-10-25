@@ -1,4 +1,4 @@
-// Interactable.cpp
+
 #include "Interactable.hpp"
 
 int Interactable::activeInteractableCount = 0;

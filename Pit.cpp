@@ -1,4 +1,4 @@
-// Pit.cpp
+
 #include "Pit.hpp"
 
 Pit::Pit(int x, int y, int width, int height) : Interactable(x, y, width, height), covered(false) {}

@@ -1,4 +1,4 @@
-// Helper.cpp
+
 #include "Helper.hpp"
 
 double Helper::absoluteSquaredDistance(std::tuple<int, int> item1, std::tuple<int, int> item2) {

@@ -1,4 +1,4 @@
-// Exit.cpp
+
 #include "Exit.hpp"
 #include "Explorer.hpp"
 

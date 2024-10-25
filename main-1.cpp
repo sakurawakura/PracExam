@@ -1,4 +1,4 @@
-// main-1.cpp
+
 #include <iostream>
 #include "GridItem.hpp"
 #include "Helper.hpp"

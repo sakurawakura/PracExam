@@ -1,10 +1,10 @@
-// GridItem.cpp
+
 #include "GridItem.hpp"
 
 int GridItem::activeGridItemCount = 0;
 
 GridItem::GridItem(int x, int y, int width, int height) : x(x), y(y), width(width), height(height) {
-    if (x == -1) { // Handle default constructor call (no arguments)
+    if (x == -1) { // default constructor call (no arguments)
         this->x = 0;
     }
     activeGridItemCount++;
@@ -34,3 +34,4 @@ int GridItem::getActiveGridItemCount() {
 GridItem::~GridItem() {
     activeGridItemCount--;
 }
+

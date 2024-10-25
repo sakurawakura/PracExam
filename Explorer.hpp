@@ -1,4 +1,4 @@
-// Explorer.hpp
+
 #ifndef EXPLORER_HPP
 #define EXPLORER_HPP
 
