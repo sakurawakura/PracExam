@@ -67,7 +67,7 @@ void Game::movePlayer(int dx, int dy) {
 void Game::printGrid() {
     for (int y = 0; y < height; ++y) {
         for (int x = 0; x < width; ++x) {
-            char cell = '_ '; // Default character
+            char cell = '_'; // Default character
 
             if (x == std::get<0>(player->getCoordinates()) && y == std::get<1>(player->getCoordinates())) {
                 cell = 'X';
