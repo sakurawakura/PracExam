@@ -13,7 +13,7 @@ private:
     static int activeGridItemCount;
 
 public:
-    GridItem(int x = 0, int y = 0, int width = 0, int height = 0);
+    GridItem(int x = -1, int y = 0, int width = 0, int height = 0);
     GridItem(); // Added default constructor
     void setCoordinates(int x, int y);
     std::tuple<int, int> getCoordinates() const; // Added const

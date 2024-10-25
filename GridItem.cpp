@@ -3,8 +3,17 @@
 
 int GridItem::activeGridItemCount = 0;
 
+/*/
 GridItem::GridItem(int x, int y, int width, int height) : x(x), y(y), width(width), height(height) {
     activeGridItemCount++;
+}
+/*/
+
+GridItem::GridItem(int x, int y, int width, int height) : x(x), y(y), width(width), height(height) { 
+    if (x == -1){ //If the default constructor was used
+        x = 0; //Set to zero
+    }
+    activeGridItemCount++; 
 }
 
 GridItem::GridItem() : x(0), y(0), width(0), height(0) {
