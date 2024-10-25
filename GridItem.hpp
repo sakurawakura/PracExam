@@ -13,14 +13,14 @@ private:
     static int activeGridItemCount;
 
 public:
-    GridItem(int x = -1, int y = 0, int width = 0, int height = 0);
-    GridItem(); // Added default constructor
+    GridItem(int x = -1, int y = 0, int width = 0, int height = 0);  // Parameterized constructor acts as default
     void setCoordinates(int x, int y);
-    std::tuple<int, int> getCoordinates() const; // Added const
-    int getGridWidth() const; // Added const
-    int getGridHeight() const; // Added const
+    std::tuple<int, int> getCoordinates() const;
+    int getGridWidth() const;
+    int getGridHeight() const;
     static int getActiveGridItemCount();
     virtual ~GridItem();
 };
 
 #endif
+
